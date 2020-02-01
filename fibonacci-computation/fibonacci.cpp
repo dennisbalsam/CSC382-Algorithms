@@ -15,16 +15,17 @@ int main() {
     // cout << "non-recursive fibonacci: " << FiboNR(10) << endl;
 
     //outputs
-    cout << "Integer" << setw(30) << "FiboR (seconds)" << setw(30) << "FiboNR (seconds)"
+    cout << setw(5) << "Integer" << setw(30) << "FiboR (seconds)" << setw(30) << "FiboNR (seconds)"
         << setw(30) << "Fibo-value" << endl;
-    cout << setfill('-') << setw(100) << ' ' << endl;
+    cout << endl;
 
     //some values to test
-    int values[] = {1,5,10,15,20,25,30,35,40,45,55,60};
+    int values[] = {1,5,10,15,20,25,30,35,40,45};
     int fibval, fibRtime, fibNRtime;
 
+    
     // loop
-    for(int i=0; i < sizeof(values); i++)
+    for(int i=0; i < (sizeof(values)/sizeof(values[0])); i++)
     {
         //recursive time
         time_t start = time(0);
@@ -37,9 +38,8 @@ int main() {
         fibNRtime = time(0) - start;
 
         //output
-            //outputs
         cout << values[i] << setw(30) << fibRtime << setw(30) << fibNRtime
-        << setw(30) << fibval << endl;
+        << setw(32) << fibval << endl;
     }
     
 }   

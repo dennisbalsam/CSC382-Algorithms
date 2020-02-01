@@ -36,7 +36,7 @@ for j in range(len(values)):
     fibRtime = time.time() - timeStart
 
     # time for non-recursive
-    timeStart = time.time()
+    timeStart = time.time() 
     fibval = FiboNR(values[j])
     fibNRtime = time.time() - timeStart
 

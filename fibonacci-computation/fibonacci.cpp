@@ -20,7 +20,7 @@ int main() {
     cout << endl;
 
     //some values to test
-    int values[] = {1,5,10,15,20,25,30,35,40,45};
+    int values[] = {1,5,10,15,20,25,30,35,40,45,46};
     int fibval, fibRtime, fibNRtime;
 
      

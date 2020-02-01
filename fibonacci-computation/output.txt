@@ -30,3 +30,4 @@ Integer               FiboR (seconds)              FiboNR (seconds)             
 35                             0                             0                         9227465
 40                             1                             0                       102334155
 45                             8                             0                      1134903170
+46                            13                             0                      1836311903

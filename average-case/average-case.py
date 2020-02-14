@@ -63,3 +63,4 @@ print ('Bound'.ljust(35),'Calculated Average'.ljust(30), 'Real Average'.ljust(30
 # calulcated different averages as bound increases
 for value in bound:
     avgcomparison(value)
+

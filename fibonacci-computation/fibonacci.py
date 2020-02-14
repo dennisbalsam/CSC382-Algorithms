@@ -1,3 +1,9 @@
+# CSC 382
+# Dennis Krupitsky
+# Project #1 Compare Fibonacci (recursion vs. bottom up)
+# Date: 1/31/20
+
+
 import time
 import random 
 # recursive fibonacci function

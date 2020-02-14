@@ -1,5 +1,12 @@
-# program that demonstartes the average case complexity of how quickly the average time increases when the size of n increases
+# CSC 382
+# Dennis Krupitsky
+# Project #2 Average Case
+# Date: 2/14/20
 
+
+
+
+# program that demonstartes the average case complexity of how quickly the average time increases when the size of n increases
 import random
 
 

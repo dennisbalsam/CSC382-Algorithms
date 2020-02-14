@@ -8,7 +8,7 @@
 
 # program that demonstartes the average case complexity of how quickly the average time increases when the size of n increases
 import random
-
+import sys
 
 # find function which returns position or 0
 def Find(x, A, n):
@@ -51,14 +51,14 @@ def avgcomparison(bound):
     realAverage = totalSteps/10000
 
         #print values
-    print(str(bound).ljust(20), str(calculatedAverage).center(25), ' '.ljust(4),  str(realAverage).center(24))
+    print(str(bound).ljust(30), str(calculatedAverage).center(25), ' '.ljust(4),  str(realAverage).center(24))
 
 
 
 
 # execute function with different sizes of bounds
-bound = [30, 50, 80, 100, 1000, 10000]
-print ('Bound'.ljust(25),'Calculated Average'.ljust(30), 'Real Average'.ljust(30))
+bound = [30, 50, 80, 100, 1000, 10000, sys.maxsize ]
+print ('Bound'.ljust(35),'Calculated Average'.ljust(30), 'Real Average'.ljust(30))
 
 # calulcated different averages as bound increases
 for value in bound:
